@@ -7,7 +7,7 @@ spring:
       FAIL_ON_EMPTY_BEANS : false
 
   data.mongodb:
-    database: local
+    database: user_db
     port: 27017
     host: if-db
 
