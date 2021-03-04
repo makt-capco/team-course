@@ -7,9 +7,9 @@ spring:
       FAIL_ON_EMPTY_BEANS : false
 
   data.mongodb:
-    database: user_db
+    database: local
     port: 27017
-    host: localhost
+    host: if-db
 
 logging:
    pattern.console: '[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n'
